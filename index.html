@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom Educare - Your Path to Success</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkeDfyft_nK7ltjuJiCCBxfeb7bUxcyn3TuVQujVtzh4c9bd-Q7EV02zi8kUN18wkFms8ptYgSSxtb-aaQk1pttfjDcUQtp9Vn9cS9F5Ahun_CNMQmqJhcijkA0rk5oSGba6ytRELriM_w2UF1qVrkLrx7404rX4xjLybBFijafPMzuy9bnPb1I8=w16383" alt="Wisdom Educare Logo">
+            <h1>Wisdom Educare</h1>
+        </div>
+        
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#director">Director</a>
+            <a href="#contact-us">Contact Us</a>
+        </div>
+        
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about-us" class="mobile-nav-link">About Us</a>
+        <a href="#director" class="mobile-nav-link">Director</a>
+        <a href="#contact-us" class="mobile-nav-link">Contact Us</a>
+    </div>
+    
+    <!-- Main Content -->
+    <div id="main">
+        <!-- Home Section -->
+        <section id="home">
+            <div class="home-content">
+                <h2><span>Wisdom Educare</span> Your Path to Success</h2>
+                <p>Providing quality education and personalized guidance to help students achieve their academic dreams. Our expert faculty and result-oriented approach ensure success in competitive exams.</p>
+                <div class="btn-container">
+                    <button class="btn btn-primary" id="contactBtn">Contact Us</button>
+                    <button class="btn btn-outline" id="admissionBtn">Get Admission</button>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-card">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwdD4mvgtORWDht3f-ux-XTzGQKRm8kT_POJC2O2keWPN7lh-gCkXZjOWyuEbaFwk0ky1xDhSGATkINjITQvS3UBJi8pXcHwIlx_N-VzBGR-aSw9pv0_8q-qw_FzevglGPpAQSx=s1360-w1360-h1020-rw" alt="Education Image">
+                    <div class="image-overlay">
+                        <h3>As You Think So You Are...</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about-us">
+            <h2 class="section-title">Why Choose <span>Wisdom Educare?</span></h2>
+            <div class="boxes">
+                <div class="box">
+                    <h3>Expert Faculty</h3>
+                    <p>Our experienced faculty focuses on building strong conceptual clarity and problem-solving skills. Students receive personal attention, regular doubt sessions, and exam-oriented guidance to improve confidence and performance.</p>
+                </div>
+                <div class="box">
+                    <h3>Structured Study Material</h3>
+                    <p>We provide well-organized, easy-to-understand study material designed as per the latest syllabus and exam patterns. Notes, practice questions, and tests help students revise effectively and stay consistent throughout the year.</p>
+                </div>
+                <div class="box">
+                    <h3>Result-Oriented Coaching</h3>
+                    <p>Our coaching approach is fully result-driven with regular assessments, performance analysis, and targeted improvement plans. Continuous mentoring helps students stay focused, motivated, and ready to achieve academic success.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Director Section -->
+        <section id="director">
+            <h2 class="section-title">From the <span>Director's Desk</span></h2>
+            <div class="director-container">
+                <div class="director-image">
+                    <img src="https://lh3.googleusercontent.com/sitesv/AAzXCkdsApF7mdh04wjukyw-StXjTzcFsQJJW90KrNlWKopklgfCD3Kxle1KzO__Hj7sG8ph0BNunoi_Ufa5f3i4fJkYmNlSVKypLypFJfUsbxULXVKGP5CIvzl_Tu-9lvggq-cPzKxyTBOLib0vYmPJuaTYuTlidfko_8E31etIxN3D-VagKf-6hj9Tl3rrlrYM7NnlemdYnGpXw7Dac_zGRtTgfZn86-JXUPAG11w=w1280" alt="Director">
+                </div>
+                <div class="director-message">
+                    <h3>Message from the Director</h3>
+                    <p>At Wisdom Educare, we believe that every student has the potential to excel. Our mission is to provide the right guidance, resources, and environment to help students unlock their true capabilities. With a dedicated faculty, innovative teaching methods, and personalized attention, we ensure that each student receives the support they need to achieve their academic goals and build a successful future.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact-us">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        <p id="status" style="margin-top: 15px; text-align: center;"></p>
+                    </form>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d736.4707492609866!2d83.2696771389677!3d25.258664565646985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e179846c52769%3A0x2eab8688fe0397c9!2sWisdom%20Educare%20For%20IIT%20-JEE%20NEET!5e1!3m2!1sen!2sin!4v1766657998510!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Wisdom Educare</h3>
+                    <p>Your path to academic success and excellence in competitive exams.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="#director">Director</a>
+                    <a href="#contact-us">Contact Us</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@wisdomeducare.com</p>
+                    <p>Phone: +91 123 456 7890</p>
+                    <p>Address: Education Street, Academic City</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Wisdom Educare. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        
+        // Hamburger menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        hamburger.addEventListener('click', function() {
+            mobileMenu.classList.toggle('active');
+            hamburger.innerHTML = mobileMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Contact form submission
+        const contactForm = document.getElementById('contactForm');
+        const statusMessage = document.getElementById('status');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                statusMessage.textContent = 'Please fill in all fields.';
+                statusMessage.style.color = '#ff0400';
+                return;
+            }
+            
+            // Simulate form submission
+            statusMessage.textContent = 'Sending your message...';
+            statusMessage.style.color = '#fff';
+            
+            setTimeout(() => {
+                statusMessage.textContent = 'Thank you! Your message has been sent.';
+                statusMessage.style.color = '#4CAF50';
+                contactForm.reset();
+            }, 1500);
+        });
+        
+        // Button click handlers
+        document.getElementById('contactBtn').addEventListener('click', function() {
+            document.getElementById('contact-us').scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        document.getElementById('admissionBtn').addEventListener('click', function() {
+            alert('Admission form will open soon. Please contact us for more information.');
+        });
+        
+        // Box hover effect enhancement
+        const boxes = document.querySelectorAll('.box');
+        boxes.forEach(box => {
+            box.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+            });
+            
+            box.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add active class to current section in nav
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-links a, .mobile-menu a');
+            
+            window.addEventListener('scroll', function() {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (scrollY >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
